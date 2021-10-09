@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
 
+                //implementar os metodos de calculo
+                /*
                 try {
                     Expression expressao = new ExpressionBuilder(txtExpressao.getText().toString()).build();
                     double resultado = expressao.evaluate();
@@ -85,6 +87,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }catch (Exception e) {
 
                 }
+                 */
+            }
+        });
+
+        soma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
             }
         });
     }

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        app:layout_editor_absoluteX="1dp"
+        app:layout_editor_absoluteY="1dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/entrada1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entrada1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        />
+
+
+        <EditText
+            android:id="@+id/et_entrada1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:numeric="decimal" />
+
+        <TextView
+            android:id="@+id/entrada2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entrada2"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        />
+
+        <EditText
+            android:id="@+id/et_entrada2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:numeric="decimal" />
+
+        <TextView
+            android:id="@+id/tv_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Resultado:"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        />
+
+        <Button
+            android:id="@+id/btn_soma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="@string/somar" />
+
+        <Button
+            android:id="@+id/btn_subtrair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="@string/subtrair" />
+
+        <Button
+            android:id="@+id/btn_multiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="@string/multiplicar" />
+
+        <Button
+            android:id="@+id/btn_dividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="@string/dividir" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
